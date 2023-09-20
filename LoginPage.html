@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        label{
+            padding: 15px 0px 15px 10px
+        }
+        input{
+            margin-right: 65px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar bg-dark" style="height: 80px;">
+        <a href="navbar-brand">
+            <img class="mx-3" src="images/codemithra.png" alt="logo" width="200px">
+        </a>
+
+        <div class="nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Resources</a>
+            <a href="#" class="nav-link">Blog</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="text-center">Support Request Form</h1>
+    <p class="text-center">Hello, we look forward to resolving your query.
+        Please fill out the form below and we will get in touch with you as soon as possible.</p>
+
+
+        <center>
+            <form class="form " action="" style="max-width: 50%; border-radius: 15px; background-color: rgb(211, 207, 203);">
+                <table>
+                    <tr>
+                        <td><label for="" class="form-label me-5">Full Name</label></td>
+                        <td><input type="text" class="form-control rounded" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="" class="form-label me-5">Learner ID</label></td>
+                        <td><input type="text" class="form-control rounded" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="" class="form-label me-5">Email</label></td>
+                        <td><input type="email" class="form-control rounded" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="" class="form-label me-5">Mobile Number</label></td>
+                        <td><input type="tel" class="form-control rounded" required></td>
+                    </tr>
+                    <tr>
+                        <td><label class="form-label me-5">Query related to</label></td>
+                        <td>
+                            <select class="form-select">
+                                <option>Admission/Fees/Loan</option>
+                                <option>Training</option>
+                                <option>Placement</option>
+                                <option>Others</option>
+                            </select>
+                        </td>
+                    </tr>        
+                
+                <tr>
+                    <td><label class="form-label me-5">Description</label></td>
+                    <td><textarea class="form-control rounded" type="text" required></textarea></td>
+                </tr>
+
+
+                    <tr>
+                        <td><label for="" class="form-label me-5">Subject</label></td>
+                        <td><input type="text" class="form-control rounded" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="" class="form-label me-5">Description</label></td>
+                        <td><input type="text" class="form-control rounded" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="" class="form-label me-5">Optional Attachment</label></td>
+                        <td><input type="file" class="form-control rounded" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="text-center">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                            <button class="btn btn-primary" type="reset">Reset</button>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </form>
+        </center>
+    </main>
+
+    <footer>
+        
+        <div class="row bg-dark mt-3">
+            <!-- col-3 will occupy 3 column out of 12 -->
+            <div class="col-3 text-primary text-center">Quick Links</div>
+            <div class="col-3 text-primary text-center">Quick Links</div>
+            <div class="col-3 text-primary text-center">Quick Links</div>
+            <div class="col-3 text-primary text-center">Quick Links</div>
+        </div>
+        <p class="text-center">&copy; Copyrighted by...Harsh Sangrulkar</p>
+    </footer>
+    
+
+
+        
+</body>
+</html>
